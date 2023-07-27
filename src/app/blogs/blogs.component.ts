@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import { incInCount } from '../store/actions/counter.action';
+import { decInCount, incInCount } from '../store/actions/counter.action';
 import { Observable } from 'rxjs';
 import { count } from '../store/selectors/counter.selector';
 
 @Component({
   selector: 'app-blogs',
   templateUrl: './blogs.component.html',
-  styleUrls: ['./blogs.component.sass']
+  styleUrls: ['./blogs.component.scss']
 })
 export class BlogsComponent {
   products:any;
@@ -21,5 +21,7 @@ export class BlogsComponent {
   increment() {
     this.store.dispatch(incInCount());
   }
- 
+  decrement() {
+    this.store.dispatch(decInCount());
+  }
 }
