@@ -1,0 +1,31 @@
+<div class="container">
+    <legend>Add A New User</legend>
+    <div class="mb-3">
+      <label for="firstName" class="form-label">First Name</label>
+      <input
+        type="text"
+        [(ngModel)]="userForm.firstName"
+        class="form-control"
+        id="firstName"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input
+        type="text"
+        [(ngModel)]="userForm.lastName"
+        class="form-control"
+        id="lastName"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="age" class="form-label">Age</label>
+      <input
+        type="number"
+        [(ngModel)]="userForm.age"
+        class="form-control"
+        id="age"
+      />
+    </div>
+    <button type="button" class="btn btn-dark" (click)="save()">Create</button>
+  </div>

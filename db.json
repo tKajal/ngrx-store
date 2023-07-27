@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Terry",
+      "lastName": "Medhurst",
+      "age": 50,
+      "gender": "male",
+      "email": "atuny0@sohu.com",
+      "phone": "+63 791 675 8914",
+      "birthDate": "2000-12-25",
+      "image": "https://robohash.org/hicveldicta.png",
+      "bloodGroup": "A−"
+    },
+    {
+      "id": 2,
+      "firstName": "test",
+      "lastName": "fh",
+      "age": 30,
+      "gender": "male",
+      "email": "qwq0@sohu.com",
+      "phone": "+73 791 675 8914",
+      "birthDate": "1000-12-25",
+      "image": "https://robohash.org/hicveldicta.png",
+      "bloodGroup": "A−"
+    },
+    {
+      "id": 3,
+      "firstName": "wd",
+      "lastName": "wd",
+      "age": 15
+    },
+    {
+      "id": 4,
+      "firstName": "dew",
+      "lastName": "dw",
+      "age": 17
+    },
+    {
+      "id": 5,
+      "firstName": "eg",
+      "lastName": "ge",
+      "age": 2
+    },
+    {
+      "id": 6,
+      "firstName": "wd",
+      "lastName": "wd",
+      "age": 21
+    },
+    {
+      "id": 7,
+      "firstName": "i",
+      "lastName": "i",
+      "age": 1
+    }
+  ]
+}

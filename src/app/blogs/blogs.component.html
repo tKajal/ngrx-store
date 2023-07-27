@@ -1,0 +1,17 @@
+<h3>Products List</h3>
+<div *ngFor="let product of products">
+
+    <p>
+        {{product.title}}
+    </p>
+    <p>
+        {{product.price}}
+    </p>
+    <p>
+        {{product.brand}}
+    </p>
+</div>
+
+<button id="increment" (click)="increment()">Increment</button>
+
+<div>Current Count: {{ count$ | async }}</div>
