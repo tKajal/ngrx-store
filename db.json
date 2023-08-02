@@ -1,9 +1,22 @@
 {
-  "posts": [
+  "clients": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "kajal",
+      "product": "hjkdw"
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "product": "shu"
+    },
+    {
+      "name": "test222",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "id": 4
     }
   ],
   "comments": [

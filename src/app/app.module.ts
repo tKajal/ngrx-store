@@ -14,19 +14,22 @@ import { appReducer } from './store/reducers/app.reducer';
 import { AddUserComponent } from './add-user/add-user.component';
 import { FormsModule } from '@angular/forms';
 import { counterReducer } from './store/reducers/counter.reducer';
+import { ClientsComponent } from './clients/clients.component';
+import { clientReducer } from './store/reducers/client.reducer';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     BlogsComponent,
-    AddUserComponent
+    AddUserComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({ appState: appReducer,usersList:usersReducer,count: counterReducer}),
+    StoreModule.forRoot({ appState: appReducer,usersList:usersReducer,count: counterReducer,clientList:clientReducer}),
     EffectsModule.forRoot(),
     EffectsModule.forFeature([UsersEffect])
   ],

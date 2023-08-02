@@ -18,4 +18,8 @@ export class WebService {
   create(payload: Users) {
     return this.http.post<Users>('http://localhost:3000/users', payload);
   }
+  getClients(action:any) {
+    console.log(action)
+    return this.http.get<Users[]>('http://localhost:3000/clients');
+  }
 }
